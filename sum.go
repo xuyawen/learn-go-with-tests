@@ -7,6 +7,7 @@ func Sum(arr []int) int {
 	}
 	return sum
 }
+
 func SumAll(allArr ...[]int) int {
 	sum := 0
 	for _, arr := range allArr {
